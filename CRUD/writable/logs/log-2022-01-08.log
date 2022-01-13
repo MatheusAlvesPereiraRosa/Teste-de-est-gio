@@ -1,0 +1,33 @@
+CRITICAL - 2022-01-08 20:21:11 --> The framework needs the following extension(s) installed and loaded: intl.
+#0 C:\xampp\htdocs\CRUD\system\CodeIgniter.php(219): CodeIgniter\Exceptions\FrameworkException::forMissingExtension('intl')
+#1 C:\xampp\htdocs\CRUD\system\CodeIgniter.php(177): CodeIgniter\CodeIgniter->resolvePlatformExtensions()
+#2 C:\xampp\htdocs\CRUD\system\bootstrap.php(146): CodeIgniter\CodeIgniter->initialize()
+#3 C:\xampp\htdocs\CRUD\public\index.php(28): require('C:\\xampp\\htdocs...')
+#4 {main}
+CRITICAL - 2022-01-08 20:21:30 --> The framework needs the following extension(s) installed and loaded: intl.
+#0 C:\xampp\htdocs\CRUD\system\CodeIgniter.php(219): CodeIgniter\Exceptions\FrameworkException::forMissingExtension('intl')
+#1 C:\xampp\htdocs\CRUD\system\CodeIgniter.php(177): CodeIgniter\CodeIgniter->resolvePlatformExtensions()
+#2 C:\xampp\htdocs\CRUD\system\bootstrap.php(146): CodeIgniter\CodeIgniter->initialize()
+#3 C:\xampp\htdocs\CRUD\public\index.php(28): require('C:\\xampp\\htdocs...')
+#4 {main}
+CRITICAL - 2022-01-08 20:27:23 --> The framework needs the following extension(s) installed and loaded: intl.
+#0 C:\xampp\htdocs\CRUD\system\CodeIgniter.php(219): CodeIgniter\Exceptions\FrameworkException::forMissingExtension('intl')
+#1 C:\xampp\htdocs\CRUD\system\CodeIgniter.php(177): CodeIgniter\CodeIgniter->resolvePlatformExtensions()
+#2 C:\xampp\htdocs\CRUD\system\bootstrap.php(146): CodeIgniter\CodeIgniter->initialize()
+#3 C:\xampp\htdocs\CRUD\public\index.php(28): require('C:\\xampp\\htdocs...')
+#4 {main}
+CRITICAL - 2022-01-08 20:27:44 --> The framework needs the following extension(s) installed and loaded: intl.
+#0 C:\xampp\htdocs\CRUD\system\CodeIgniter.php(219): CodeIgniter\Exceptions\FrameworkException::forMissingExtension('intl')
+#1 C:\xampp\htdocs\CRUD\system\CodeIgniter.php(177): CodeIgniter\CodeIgniter->resolvePlatformExtensions()
+#2 C:\xampp\htdocs\CRUD\system\bootstrap.php(146): CodeIgniter\CodeIgniter->initialize()
+#3 C:\xampp\htdocs\CRUD\public\index.php(28): require('C:\\xampp\\htdocs...')
+#4 {main}
+CRITICAL - 2022-01-08 15:06:10 --> Invalid file: exibirSaldo.php
+#0 C:\xampp\htdocs\CRUD\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('exibirSaldo.php')
+#1 C:\xampp\htdocs\CRUD\system\Common.php(1089): CodeIgniter\View\View->render('exibirSaldo', Array, true)
+#2 C:\xampp\htdocs\CRUD\app\Controllers\Home.php(24): view('exibirSaldo')
+#3 C:\xampp\htdocs\CRUD\system\CodeIgniter.php(825): App\Controllers\Home->exibirSaldo()
+#4 C:\xampp\htdocs\CRUD\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 C:\xampp\htdocs\CRUD\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\CRUD\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}

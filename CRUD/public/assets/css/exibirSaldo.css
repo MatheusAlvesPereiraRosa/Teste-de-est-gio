@@ -1,0 +1,26 @@
+.cabecalho {
+    text-align: center;
+    background-color: #72A0C1;
+    height: 100px;
+}
+
+.titulo {
+    padding-top: 25px;
+}
+
+.mensagem {
+    text-align: center;
+}
+
+.container {
+    background-color: #E1EBEE;
+    text-align: center;
+    border-radius: 20px;
+    padding: 20px;
+}
+
+.link {
+    color: aliceblue;
+}
+
+
